@@ -1,0 +1,15 @@
+package com.mca.eventease.repository;
+
+import com.mca.eventease.model.Notification;
+import org.springframework.data.mongodb.repository.MongoRepository;
+
+import java.util.List;
+
+public interface NotificationRepository
+        extends MongoRepository<Notification, String> {
+
+    List<Notification> findByUserEmailOrderByCreatedAtDesc(
+            String userEmail);
+
+    long countByUserEmail(String userEmail);
+}
