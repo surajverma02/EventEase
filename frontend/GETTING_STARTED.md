@@ -151,7 +151,7 @@ To connect to your Spring Boot backend:
 
 1. Update the API base URL in `src/services/api.ts`:
 ```typescript
-const API_BASE_URL = 'http://localhost:8080'; // Your backend URL
+const API_BASE_URL = 'https://eventease-20lv.onrender.com'; // Your backend URL
 ```
 
 2. Ensure your backend is running and CORS is configured

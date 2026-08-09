@@ -154,7 +154,7 @@ npm install
 2. **Configure Backend URL**
 Update the API base URL in `src/services/api.ts`:
 ```typescript
-const API_BASE_URL = 'http://localhost:8080';
+const API_BASE_URL = 'https://eventease-20lv.onrender.com';
 ```
 
 3. **Start Development Server**
