@@ -8,6 +8,6 @@ public class TestController {
 
     @GetMapping("/test")
     public String testApi() {
-        return "EventEase Backend Running Successfully";
+        return "EventEase Backend Running successfully";
     }
 }
